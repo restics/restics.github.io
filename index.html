@@ -1,117 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Liu Portfolio</title>
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 40px;
-            background-color:#66757F;
-            color:aliceblue;
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-        }
-        h1,
-        h2{
-            font-size: 25px;
-            border-bottom: 2px solid aliceblue;
-        }
-        #title{
-            padding-bottom:10px;
-        }
-        #pfp{
-            height : 100px;
-            width: 100px; 
-        }
-        h3{
-            margin:2px;
-        }
-        li p{
-            margin-top:2px;
-        }
-        div{
-            margin: 0 auto;
-            padding: 20px;
-            border-radius: 15px;
-            background-color:#292F33;
-            margin-bottom:20px;
-            width:600px;
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Michael Liu's Portfolio</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-        }
-        div#summary{
-            padding: 20px;
-            margin-bottom:20px;
-        }
-        .jirachi{
-            display:flex;
-            flex:1;
-            justify-content: space-around; 
-        }
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-    </style>
-</head>
-<body>
-    <div>
-        <h1 id="title">Hi. I'm Michael.</h1>
-    </div>
-    <div id="summary">
-        <p>I'm a passionate developer specializing in Python, Java, and Kotlin. My main interests are in machine learning and game development. I'm mainly researching things like LLM reasoning and reinforcement learning. I'm currently also trying to improve my web development and software architecture skills. In the future I hope to create software integrating Agentic LLMs.</p>
-    </div>
-    <div class="jirachi">
-        <img id= "pfp" src="https://avatars.githubusercontent.com/u/70735824?s=400&u=37f5f9deb3d02a34f8f49f5566b16439575c3a2a&v=4" alt="michael_image" >
-        <p>Jirachi! :)</p>
-    </div>
-
-    <div>
-        <h2>Stuff I've done:</h2>
-        <ul>
-            <li>
-                <h3>Llamen</h3>
-                <p> - A custom instruction tuned implementation of Llama3.2-3B using CoT with RAG capabilities</p>
-            </li>
-            <li>
-                <h3>Bullseye</h3>
-                <p> - A stock trading bot that uses BERT- based sentiment analysis and MLR to predict stock prices</p>
-            </li>
-            <li>
-                <h3>Glass</h3>
-                <p> - A serverside Dungeon Generation plugin for Minecraft using Paper</p>
-            </li>
-            <li>
-                <h3>RealmsAddon</h3>
-                <p> - A clientside minecraft mod for an MMORPG with various helpful utilities such as stats tracking and discord RPC integration</p>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <h2>Other fun facts about me!</h2>
-        <ul>
-            <li>
-                <h3>Cooking!</h3>
-                <p>In my free time, I enjoy cooking! I've made many different dishes, from homemade pan pizzas to pot roast to shepherds pie! On weekdays I make fried rice!</p>
-                
-            </li>
-            <li>
-                <h3>Gym!</h3>
-                <p>I've recently started going to the gym this past semester, have tried to aim for 3-4 times a week with 1 time a week at minimum, and it's been going well!</p>
-                
-            </li>
-            <li>
-                <h3>Video Games!</h3>
-                <p>enjoys minecraft, the binding of isaac, and other roguelikes in spare time. wow another computer science major who plays video games</p>
-             </li>
-             <li>
-                <h3>Self Hosting!</h3>
-                <p>I've also recently gotten really into self-hosting this summer, huge tailscale enjoyer. Currently self hosting immich, owncloud, ollama + webui, and uptimekuma!</p>
-             </li>
-        </ul>
-    </div>
-</body>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
